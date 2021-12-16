@@ -1,0 +1,5 @@
+  o Major feature (onion service):
+    - Onion services can now export the circuit id using HAProxy protocol in
+      the per-port service to differentiate client circuits. This can be done
+      by putting an optional flag in HiddenServicePort option. Closes ticket
+      40530. Patch by Suphanat Chunhapanya (haxxpop).
